@@ -1,0 +1,17 @@
+#os-navbar-logo {
+    width: 13%;
+    height: 13%;
+    padding-right: 1rem;
+}
+
+p {
+    color: white;
+}
+
+#serverStatus {
+    position: fixed;
+}
+
+#navbar {
+    font-family: sans-serif;
+}

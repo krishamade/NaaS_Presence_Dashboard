@@ -1,0 +1,15 @@
+version: '3'
+services:
+    app:
+        build: .
+        expose:
+            - "8180"
+            - "80"
+        restart: unless-stopped
+        ports:
+            - "8180:8180"
+            - "3000:80"
+        volumes:
+            - ./src:/srv/app/nas_dashboard/src
+            - ./public:/srv/app/nas_dashboard/public
+        command: [ "node", "server.js" ]

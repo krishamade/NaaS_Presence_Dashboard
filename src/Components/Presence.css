@@ -1,0 +1,36 @@
+table {
+  text-align: center;
+  font-family: sans-serif!;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+}
+#activeNA {
+  font-size: 22px ;
+}
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #assignments {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  #assignments td, #assignments th {
+    color: rgb(111, 111, 111);
+    padding: 1vh 1vw;
+  }
+
+  #assignments th {
+    font-weight: bolder;
+    padding: 1vh 1vw;
+    text-align: center;
+  }
+
+  .updatedTime {
+    color: rgb(111, 111, 111);
+    background-color: white;
+    text-align: right;
+    font-size: small;
+  }
+

@@ -1,0 +1,36 @@
+table {
+  text-align: center;
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#onLeave {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 1vh 1vw;
+}
+
+th {
+  color: rgb(111, 111, 111);
+}
+
+#onLeave th {
+  font-weight: bolder;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+  color: rgb(111, 111, 111);
+}
+
+td {
+  padding: .2rem;
+  color: rgb(111, 111, 111);
+  font-weight: bold;
+}

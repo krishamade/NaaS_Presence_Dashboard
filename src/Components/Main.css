@@ -1,0 +1,31 @@
+.siteContainer {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+}
+
+#navbar {
+  width: 100%;
+}
+
+.siteContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 83.8vh;  
+}
+
+#activeNATable {
+}
+
+#leaveCalendar {
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
